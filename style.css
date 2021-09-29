@@ -9,7 +9,20 @@
 .debug .info{
     height: 400px;
 }
-
+.debug .row,
+.debug .container,
+.debug [class^="col"]{
+    height:100%;
+}
+.debug [class^="col"]{
+    background-color: pink;
+}
+.debug .portfolio .row{
+    height: 50%;
+}
+.debug .portfolio [class^="col"]{
+    background-color: coral;
+}
 /* #endregion ******* DEBUG ******* */
 .dark_blue_bg{
     background-color: #2C3E50;
