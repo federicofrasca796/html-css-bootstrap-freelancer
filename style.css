@@ -1,5 +1,5 @@
 /* #region ******* DEBUG ******* */
-.debug #site_header,
+.debug .navbar,
 .debug .copyright{
     height: 100px;
 }
@@ -7,20 +7,19 @@
     height: 400px;
 } */
 .debug .start{
-    height: 400px;;
+    height: 400px;
 }
 .debug .portfolio [class^="col"],
 .debug .info [class^="col"]{
     height: 300px;
 }
-/* .debug .info{
-    height: 400px;
-} */
 .debug .row,
-.debug .navbar,
 .debug .container,
 .debug [class^="col"]{
     height:100%;
+}
+.debug .title{
+    height: 100px;
 }
 .debug [class^="col"]{
     background-color: rgba(255, 192, 203, 0.37);
@@ -33,11 +32,15 @@
     background-color: coral;
     border: 1px solid rgba(0, 0, 0, 0.212);
 }
+
 .debug .about [class^="col"],
 .debug .contact [class^="col"]{
     height: 100px;
 }
 /* #endregion ******* DEBUG ******* */
+
+
+
 .dark_blue_bg{
     background-color: #2C3E50;
 }
