@@ -3,13 +3,21 @@
 .debug .copyright{
     height: 100px;
 }
-.debug #site_main > section {
+/* .debug #site_main > section {
     height: 400px;
+} */
+.debug .start{
+    height: 400px;;
 }
-.debug .info{
+.debug .portfolio [class^="col"],
+.debug .info [class^="col"]{
+    height: 300px;
+}
+/* .debug .info{
     height: 400px;
-}
+} */
 .debug .row,
+.debug .navbar,
 .debug .container,
 .debug [class^="col"]{
     height:100%;
@@ -40,3 +48,8 @@
     background-color: #1ABC9C;
 }
 
+/* @media screen and (max-width:575.98px) {
+    .portfolio .col-4{
+        width: 100%;
+    }
+} */
