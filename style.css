@@ -1,0 +1,23 @@
+/* #region ******* DEBUG ******* */
+.debug #site_header,
+.debug .copyright{
+    height: 100px;
+}
+.debug #site_main > section {
+    height: 400px;
+}
+.debug .info{
+    height: 400px;
+}
+
+/* #endregion ******* DEBUG ******* */
+.dark_blue_bg{
+    background-color: #2C3E50;
+}
+.blue_bg{
+    background-color: #3A546D;
+}
+.turquoise_bg{
+    background-color: #1ABC9C;
+}
+
