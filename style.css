@@ -66,11 +66,17 @@
 .pseudo_white::after{
     background-color: white;
 }
+
+.btn.turquoise_bg{
+    border: none;
+    padding: .5rem 1rem;
+}
 /* #endregion ******* UTILITY ******* */
 
 /* #region ******* COMMON ******* */
 ::placeholder {
-  color: black !important;
+    font-size: 1.2rem;
+    color: black !important;
 }
 /* #region ******* COMMON ******* */
 
