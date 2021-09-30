@@ -75,3 +75,16 @@
 /* #endregion ******* JUMBO ******* */
 
 
+
+/* MAIN  */
+
+/* #region ******* PORTFOLIO ******* */
+.p_card{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.p_card img{
+    width:100%;
+}
+/* #endregion ******* PORTFOLIO ******* */
+
