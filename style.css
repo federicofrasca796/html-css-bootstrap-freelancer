@@ -6,7 +6,7 @@
 /* .debug #site_main > section {
     height: 400px;
 } */
-.debug .start{
+.debug .jumbotron{
     height: 400px;
 }
 .debug .portfolio [class^="col"],
@@ -41,6 +41,7 @@
 
 
 
+/* #region ******* UTILITY ******* */
 .dark_blue_bg{
     background-color: #2C3E50;
 }
@@ -51,8 +52,22 @@
     background-color: #1ABC9C;
 }
 
-/* @media screen and (max-width:575.98px) {
-    .portfolio .col-4{
-        width: 100%;
-    }
-} */
+.star_splitter::before,
+.star_splitter::after{
+    content:"";
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    background-color: white;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+/* #endregion ******* UTILITY ******* */
+
+/* #region ******* JUMBO ******* */
+.avatar{
+    width: 50%;
+}
+/* #endregion ******* JUMBO ******* */
+
+
