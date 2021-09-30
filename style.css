@@ -68,13 +68,19 @@
 }
 /* #endregion ******* UTILITY ******* */
 
+/* #region ******* COMMON ******* */
+::placeholder {
+  color: black !important;
+}
+/* #region ******* COMMON ******* */
+
+
+
 /* #region ******* JUMBO ******* */
 .avatar{
     width: 50%;
 }
 /* #endregion ******* JUMBO ******* */
-
-
 
 /* MAIN  */
 
@@ -88,3 +94,12 @@
 }
 /* #endregion ******* PORTFOLIO ******* */
 
+/* #region ******* CONTACT ME ******* */
+.form_input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 1rem 0;
+    
+}
+/* #endregion ******* CONTACT ME ******* */
