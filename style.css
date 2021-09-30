@@ -71,12 +71,19 @@
     border: none;
     padding: .5rem 1rem;
 }
+
+.blue_bg p>a{
+    color: #1ABC9C;
+}
 /* #endregion ******* UTILITY ******* */
 
 /* #region ******* COMMON ******* */
 ::placeholder {
     font-size: 1.2rem;
     color: black !important;
+}
+a{
+    text-decoration: none;
 }
 /* #region ******* COMMON ******* */
 
@@ -106,6 +113,20 @@
     border: none;
     border-bottom: 1px solid lightgray;
     padding: 1rem 0;
-    
 }
 /* #endregion ******* CONTACT ME ******* */
+
+/* #region ******* FOOTER ******* */
+#site_footer h3{
+    font-size: 1.7rem;
+}
+#site_footer p{
+    font-size: 1.2rem;
+}
+.social > i{
+    font-size: 1.2rem;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+/* #endregion ******* FOOTER ******* */
