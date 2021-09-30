@@ -3,9 +3,6 @@
 .debug .copyright{
     height: 100px;
 }
-/* .debug #site_main > section {
-    height: 400px;
-} */
 .debug .jumbotron{
     height: 400px;
 }
@@ -57,7 +54,7 @@
     content:"";
     display: inline-block;
     height: 3px;
-    width: 30%;
+    width: 100px;
     background-color: black;
     border-radius: 3px;
     vertical-align: middle;
@@ -84,6 +81,7 @@
 }
 a{
     text-decoration: none;
+    color: white;
 }
 /* #region ******* COMMON ******* */
 
@@ -114,19 +112,26 @@ a{
     border-bottom: 1px solid lightgray;
     padding: 1rem 0;
 }
+.form_input:focus{
+    box-shadow:none;
+}
 /* #endregion ******* CONTACT ME ******* */
+
+
+/* FOOTER  */
 
 /* #region ******* FOOTER ******* */
 #site_footer h3{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 #site_footer p{
     font-size: 1.2rem;
 }
-.social > i{
+.social > a{
+    display: inline-block;
     font-size: 1.2rem;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
 }
 /* #endregion ******* FOOTER ******* */
