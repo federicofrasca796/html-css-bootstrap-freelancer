@@ -62,8 +62,8 @@
     border-radius: 3px;
     vertical-align: middle;
 }
-.star_splitter.pseudo_white::before,
-.star_splitter.pseudo_white::after{
+.pseudo_white::before,
+.pseudo_white::after{
     background-color: white;
 }
 /* #endregion ******* UTILITY ******* */
